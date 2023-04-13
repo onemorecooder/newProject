@@ -1,0 +1,14 @@
+{
+  "links": [
+    { "id": 1, "text": "¿Qué hace retro-shop?", "url": "#" },
+    { "id": 2, "text": "Nuestro equipo", "url": "#" },
+    { "id": 3, "text": "Productos", "url": "#" },
+    { "id": 4, "text": "¿Dónde estamos?", "url": "#" },
+    { "id": 5, "text": "Partners", "url": "#" },
+    { "id": 6, "text": "Contacto", "url": "#" },
+    { "id": 7, "text": "Centro de soporte", "url": "#" },
+    { "id": 8, "text": "Legal", "url": "#" },
+    { "id": 9, "text": "Términos y condiciones", "url": "#" },
+    { "id": 10, "text": "Cookies", "url": "#" }
+  ]
+}

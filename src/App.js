@@ -1,23 +1,22 @@
-import logo from './logo.svg';
 import './App.css';
+import Header from './Components/Header/Header';
+import Welcome from './Components/Welcome/Welcome';
+import Trayectoria from './Components/Trayectoria/Trayectoria';
+import Projects from './Components/Projects/Projects';
+import Card from "./Components/Cards/Card";
+import Footer from './Components/Footer/Footer';
+
+import cardData from "./data/cardData.json";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Header />
+      <Welcome />
+      <Trayectoria />
+      <Projects />
+      <Card cardData={cardData} />
+      <Footer />
     </div>
   );
 }
