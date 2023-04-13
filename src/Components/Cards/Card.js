@@ -10,12 +10,10 @@ function Card(props) {
           key={content.id}
           className="inline-block bg-gray-100 text-black w-72 h-96 rounded-lg m-10 cursor-pointer shadow-xl"
           whileTap={{ scale: 0.9 }}
-          whileHover={{
-            scale: 1.1,
-          }}
-        /* style={{ boxShadow: "0px 0px 10px rgba(0, 0, 0, 0.5)" }} */
+          whileHover={{ scale: 1.1 }}
+          /* style={{ boxShadow: "0px 0px 10px rgba(0, 0, 0, 0.5)" }} */
         >
-          <SiCodersrank color='black' size={64} className="m-auto w-fit" />
+          <SiCodersrank color="black" size={64} className="m-auto w-fit" />
 
           <div key={content.id} className="m-6">
             <h1 className="text-4xl mb-2">{content.title}</h1>
